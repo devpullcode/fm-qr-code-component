@@ -1,0 +1,36 @@
+@use "../base/variables" as v;
+
+.m-qr-card {
+  width: 320px;
+  height: 497px;
+  padding: 16px 16px 40px 16px;
+  border-radius: 20px;
+
+  background-color: v.$color-white;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+
+  &__qr {
+    width: 288px;
+    height: 288px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+  }
+  &__description {
+    padding: 16px;
+    padding-top: 0;
+
+    text-align: center;
+  }
+  &__title {
+    margin-bottom: 16px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: normal;
+  }
+  &__txt {
+    line-height: normal;
+    font-weight: 400;
+    color: v.$color-grayish-blue;
+  }
+}

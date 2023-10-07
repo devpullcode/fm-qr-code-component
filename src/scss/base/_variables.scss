@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
-$font-primary: 'Roboto', sans-serif;
+$font-primary: "Outfit", sans-serif;
 
-$color-primary: #e8505b;
-$color-secundary: #bd1e59;
-$color-secundary-opt-7: #e0e0e0b3;
-$color-secundary-opt-3: #7c7c7cb3;
-$color-black: #000;
+$color-dark-blue: #1f3251;
+$color-grayish-blue: #7b879d;
+$color-light-gray: #d6e2f0;
 $color-white: #fff;
 
 /* ========== typography ========== */
@@ -54,15 +52,15 @@ $align-txt-values: (left, center, right, justify);
 $breakpoint-code-values: (sm, md, lg, xl, xxl);
 
 $breakpoint-values: (
-  'sm': 36rem,
+  "sm": 36rem,
   // Mobile devices in portrait mode
-  'md': 48rem,
+  "md": 48rem,
   // Tablets in portrait and landscape mode
-  'lg': 62rem,
+  "lg": 62rem,
   // Common desktop monitors and laptops
-  'xl': 75rem,
+  "xl": 75rem,
   // Large standard desktop monitors
-  'xxl': 87.5rem,
+  "xxl": 87.5rem,
   // Big monitors, high resolution screens
 );
 
@@ -85,12 +83,12 @@ $interval-values: (
 
 /* ========== direction ========== */
 $direction-values: (
-  't': 'top',
-  'r': 'right',
-  'b': 'bottom',
-  'l': 'left',
-  'x': 'left right',
-  'y': 'top bottom',
+  "t": "top",
+  "r": "right",
+  "b": "bottom",
+  "l": "left",
+  "x": "left right",
+  "y": "top bottom",
 );
 
 /* ========== opacity ========== */
